@@ -12,13 +12,13 @@
 
 > <http://localhost:4000/users/register>
 
-´´´json
+```json
 {
     "firstName": "Jason",
     "lastName": "Watmore",
     "username": "jason",
     "password": "my-super-secret-password"
 }
-´´´
+```
 
 ![plot](./doc/register-user.png)
