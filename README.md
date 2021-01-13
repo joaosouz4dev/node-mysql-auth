@@ -8,6 +8,8 @@
 
 ## Rotas
 
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.postman.co/run-collection/94a25c9bc7325f1c9dbf)
+
 ### Registrar POST
 
 > <http://localhost:4000/users/register>
