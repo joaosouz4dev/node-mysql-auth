@@ -14,9 +14,9 @@
 
 ```json
 {
-    "firstName": "Jason",
-    "lastName": "Watmore",
-    "username": "jason",
+    "firstName": "Mar",
+    "lastName": "Cipriano",
+    "username": "Marci",
     "password": "my-super-secret-password"
 }
 ```
@@ -29,7 +29,7 @@
 
 ```json
 {
-    "username": "jason",
+    "username": "Marci",
     "password": "my-super-secret-password"
 }
 ```
@@ -50,8 +50,9 @@
 
 ```json
 {
-    "firstName": "Foo",
-    "lastName": "Bar"
+    "firstName": "João Victor",
+    "lastName": "Souza",
+    "username": "joaosouz4dev"
 }
 ```
 
