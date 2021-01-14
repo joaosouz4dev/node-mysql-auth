@@ -2,9 +2,9 @@
 
 > Node.js + API MySQL para gerenciamento de usuários, autenticação e registro
 
-## Exemplos
+## Banco MYSQL
 
-> <http://localhost:4000/users/register>
+> Para modificar os dados de conneção com banco basta acessar o arquivo `config.json`.
 
 ## Rotas
 
@@ -59,3 +59,17 @@
 ```
 
 ![plot](./doc/update-user.png)
+
+### Deletando um usuário DELETE
+
+> Para deletar basta passar na url a id do usuário desejado e o token na autorização. ex: `/users/{id}`
+> <http://localhost:4000/users/1>
+
+![plot](./doc/delete-user.png)
+
+### Capturando usuário com base no token GET
+
+> Nessa rota precisa passar o `token` requisitado.
+> <http://localhost:4000/users/current>
+
+![plot](./doc/current-user.png)
