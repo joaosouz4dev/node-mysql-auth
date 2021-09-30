@@ -1,9 +1,0 @@
-{
-    "id": 1,
-    "firstName": "Jason",
-    "lastName": "Watmore",
-    "username": "jason",
-    "createdAt": "2021-01-12T23:50:12.000Z",
-    "updatedAt": "2021-01-12T23:50:12.000Z",
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTYxMDQ5NTU0MywiZXhwIjoxNjExMTAwMzQzfQ.rGgPlVP3_eU-DCPQ2zGgDITLJCA1zUby-lXrnWp_jKc"
-}
