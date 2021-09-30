@@ -1,16 +1,16 @@
-# Node mysql marcipriano
+# Node mysql Auth
 
-> Node.js + API MySQL para gerenciamento de usuários, autenticação e registro
+> Node.js + MySQL API for user management, authentication and registration
 
-## Banco MYSQL
+## MySQL database
 
-> Para modificar os dados de conneção com banco basta acessar o arquivo `config.json`.
+> To modify the database connection data just access the `config.json` file.
 
-## Rotas
+## Routes
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.postman.co/run-collection/94a25c9bc7325f1c9dbf)
 
-### Registrar POST
+### Register POST
 
 > <http://localhost:4000/users/register>
 
@@ -25,7 +25,7 @@
 
 ![plot](./doc/register-user.png)
 
-### Autenticar POST
+### Authenticate POST
 
 > <http://localhost:4000/users/authenticate>
 
@@ -38,16 +38,16 @@
 
 ![plot](./doc/authenticate-user.png)
 
-### Retornar Usuários GET
+### Return GET Users
 
-> Nessa rota precisa passar o `token` requisitado.
+> In this route you need to pass the requested `token`.
 > <http://localhost:4000/users>
 
 ![plot](./doc/access-secure-route.png)
 
-### Atualizando um usuário PUT
+### Updating a PUT User
 
-> Para atualizar basta passar na url a id do usuário desejado e o token na autorização. ex: `/users/{id}`
+> To update, just pass the desired user id and authorization token in the url. ex: `/users/{id}`
 > <http://localhost:4000/users/1>
 
 ```json
@@ -60,16 +60,16 @@
 
 ![plot](./doc/update-user.png)
 
-### Deletando um usuário DELETE
+### Deleting a DELETE user
 
-> Para deletar basta passar na url a id do usuário desejado e o token na autorização. ex: `/users/{id}`
+> To delete, just pass the desired user id and authorization token in the url. ex: `/users/{id}`
 > <http://localhost:4000/users/1>
 
 ![plot](./doc/delete-user.png)
 
-### Capturando usuário com base no token GET
+### Capturing user based on GET token
 
-> Nessa rota precisa passar o `token` requisitado.
+> In this route you need to pass the requested `token`.
 > <http://localhost:4000/users/current>
 
 ![plot](./doc/current-user.png)
