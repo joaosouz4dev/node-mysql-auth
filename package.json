@@ -14,7 +14,7 @@
         "express": "^4.17.1",
         "express-jwt": "^6.1.0",
         "express-rate-limit": "^5.5.1",
-        "joi": "^17.4.2",
+        "joi": "^17.5.0",
         "jsonwebtoken": "^8.5.1",
         "mysql2": "^2.3.3",
         "rootpath": "^0.1.2",
