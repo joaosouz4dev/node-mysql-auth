@@ -16,7 +16,7 @@
         "express-rate-limit": "^6.7.0",
         "joi": "^17.7.0",
         "jsonwebtoken": "^8.5.1",
-        "mysql2": "^2.3.3",
+        "mysql2": "^3.0.1",
         "rootpath": "^0.1.2",
         "sequelize": "^6.25.7"
     },
